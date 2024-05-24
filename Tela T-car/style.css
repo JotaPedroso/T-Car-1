@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #333;
+}
+
+.barra_navegacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.barra_navegacao ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.barra_navegacao ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.barra_navegacao ul li a:hover {
+    background-color: #f00;
+    color: white;
+}
+
+.tela_inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+    font-size: 3.75rem;
+}
+
+.subtitulo {
+    line-height: 1.3;
+    font-size: 40px;
+}
+
+.imagem_carro_inicio {
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 40px;
+}
+
+.faixa_divisoria {
+    background-color: #f0f0f0; /* Cor de fundo para a faixa divisória */
+    padding: 80px 0; /* Espaçamento interno para a faixa divisória */
+}
+
+.faixa_divisoria::before {
+    content: "";
+    display: block;
+    height: 4px;
+    background-color: #333;
+    width: 50px;
+    margin: 0 auto 20px auto; /* Espaçamento automático para centralizar */
+}
+
+.faixa_divisoria h1{
+    line-height: 1.3;
+    font-size: 40px;
+    margin-top: -90px;
+    margin-left: 20px;
+}
+
+.carros_inicio{
+    display: flex;
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards se ajustem em várias linhas, se necessário */
+    margin: 20px;
+}
+
+.hb20{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+}
+
+.hb20_2023_inicio{
+    width: 80%;
+    margin-left: 5px
+}
+
+.hb20 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+}
+.hb20 h1 {
+  font-size: 1.7rem;
+}
+.hb20 span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+}
+.hb20 button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.hb20 button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+
+.corolla{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+}
+
+.corolla_2022_inicio{
+    width: 85%;
+    margin-left: 5px;
+}
+
+.corolla div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+}
+.corolla h1 {
+  font-size: 1.7rem;
+}
+.corolla span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+}
+.corolla button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.corolla button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.onix{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+}
+
+.onix_2023_inicio{
+    width: 66%;
+    margin-left: 5px;
+}
+
+.onix div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+}
+.onix h1 {
+  font-size: 1.7rem;
+}
+.onix span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+}
+.onix button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.onix button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.evoque{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+}
+
+.evoque_2024_inicio{
+    width: 64%;
+    margin-left: 5px;
+}
+
+.evoque div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+}
+.evoque h1 {
+  font-size: 1.7rem;
+}
+.evoque span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+}
+.evoque button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.evoque button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+  .tela_inicial {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem_carro_inicio {
+    width: 60%;
+    margin: 20px auto;
+  }
+  .carros_inicio {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hb20, .corolla, .onix, .evoque {
+    width: 60%;
+    margin: 20px auto;
+  }
+}
+
+/* Tela média (entre 769px e 1024px) */
+@media (min-width: 600px) and (max-width: 924px) {
+  .tela_inicial {
+    flex-direction: row;
+    align-items: center;
+  }
+  .imagem_carro_inicio {
+    width: 60%;
+    margin: 40px auto;
+  }
+  .carros_inicio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .hb20, .corolla, .onix, .evoque {
+    width: 20%;
+    margin: 15px;
+  }
+}
+
+/* Tela grande (acima de 1024px) */
+@media (min-width: 825px) {
+  .tela_inicial {
+    flex-direction: row;
+    align-items: center;
+  }
+  .imagem_carro_inicio {
+    width: 25%;
+    margin: 15px auto;
+  }
+  .carros_inicio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: normal;
+  }
+  .hb20, .corolla, .onix, .evoque {
+    width: 25%;
+    margin: 15px;
+  }
+}
+
+
