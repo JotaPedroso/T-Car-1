@@ -93,7 +93,7 @@ header {
     margin: 20px;
 }
 
-.hb20{
+.card_carros{
     background-color: #f0f0f0;
     width: 400px;
     height: 240px;
@@ -102,12 +102,13 @@ header {
 
 }
 
+
 .hb20_2023_inicio{
     width: 80%;
     margin-left: 5px
 }
 
-.hb20 div {
+.card_carros div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,10 +116,10 @@ header {
   gap: 4px;
   height: 50%;
 }
-.hb20 h1 {
+.card_carros h1 {
   font-size: 1.7rem;
 }
-.hb20 span {
+.card_carros span {
     font-size: 1.2rem; 
     color: #333;
     margin-bottom: 10px;
@@ -136,6 +137,148 @@ header {
   border-radius: 4px;
 }
 .hb20 button:hover {
+  background-color: #000;
+  cursor: pointer;
+} */
+
+/* 
+.corolla{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+} */
+
+.corolla_2022_inicio{
+    width: 85%;
+    margin-left: 5px;
+}
+
+/* .corolla div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+} */
+/* .corolla h1 {
+  font-size: 1.7rem;
+}
+.corolla span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+} */
+/* .corolla button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.corolla button:hover {
+  background-color: #000;
+  cursor: pointer;
+} */
+
+/* .onix{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+} */
+
+.onix_2023_inicio{
+    width: 66%;
+    margin-left: 5px;
+}
+
+/* .onix div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+} */
+/* .onix h1 {
+  font-size: 1.7rem;
+}
+.onix span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+} */
+/* .onix button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.onix button:hover {
+  background-color: #000;
+  cursor: pointer;
+} */
+
+/* .evoque{
+    background-color: #f0f0f0;
+    width: 400px;
+    height: 240px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaa;
+
+} */
+
+.evoque_2024_inicio{
+    width: 64%;
+    margin-left: 5px;
+}
+
+/* .evoque div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+} */
+/* .evoque h1 {
+  font-size: 1.7rem;
+}
+.evoque span {
+    font-size: 1.2rem; 
+    color: #333;
+    margin-bottom: 10px;
+    font-family: "Roboto Slab", serif;
+} */
+/* .evoque button {
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.evoque button:hover {
   background-color: #000;
   cursor: pointer;
 } */
@@ -158,150 +301,6 @@ header {
   background-color: #242424;
   cursor: pointer;
 }
-
-
-.corolla{
-    background-color: #f0f0f0;
-    width: 400px;
-    height: 240px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaa;
-
-}
-
-.corolla_2022_inicio{
-    width: 85%;
-    margin-left: 5px;
-}
-
-.corolla div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  height: 50%;
-}
-.corolla h1 {
-  font-size: 1.7rem;
-}
-.corolla span {
-    font-size: 1.2rem; 
-    color: #333;
-    margin-bottom: 10px;
-    font-family: "Roboto Slab", serif;
-}
-/* .corolla button {
-  background-color: #000;
-  height: 30px;
-  border: none;
-  padding: 4px;
-  width: 80%;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 4px;
-}
-.corolla button:hover {
-  background-color: #000;
-  cursor: pointer;
-} */
-
-.onix{
-    background-color: #f0f0f0;
-    width: 400px;
-    height: 240px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaa;
-
-}
-
-.onix_2023_inicio{
-    width: 66%;
-    margin-left: 5px;
-}
-
-.onix div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  height: 50%;
-}
-.onix h1 {
-  font-size: 1.7rem;
-}
-.onix span {
-    font-size: 1.2rem; 
-    color: #333;
-    margin-bottom: 10px;
-    font-family: "Roboto Slab", serif;
-}
-/* .onix button {
-  background-color: #000;
-  height: 30px;
-  border: none;
-  padding: 4px;
-  width: 80%;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 4px;
-}
-.onix button:hover {
-  background-color: #000;
-  cursor: pointer;
-} */
-
-.evoque{
-    background-color: #f0f0f0;
-    width: 400px;
-    height: 240px;
-    border-radius: 12px;
-    box-shadow: 4px 4px 12px #aaa;
-
-}
-
-.evoque_2024_inicio{
-    width: 64%;
-    margin-left: 5px;
-}
-
-.evoque div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 4px;
-  height: 50%;
-}
-.evoque h1 {
-  font-size: 1.7rem;
-}
-.evoque span {
-    font-size: 1.2rem; 
-    color: #333;
-    margin-bottom: 10px;
-    font-family: "Roboto Slab", serif;
-}
-/* .evoque button {
-  background-color: #000;
-  height: 30px;
-  border: none;
-  padding: 4px;
-  width: 80%;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 4px;
-}
-.evoque button:hover {
-  background-color: #000;
-  cursor: pointer;
-} */
-
-
 
 @media (max-width: 768px) {
   .tela_inicial {
