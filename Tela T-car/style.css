@@ -16,7 +16,10 @@ body {
 
 header {
     background-color: #333;
-    /* position: fixed; */
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    top: 0;
 }
 
 .barra_navegacao {
@@ -53,7 +56,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     margin: 5%;
-    font-size: 3.75rem;    
+    font-size: 3.75rem; 
+    margin-top: 15%;   
 }
 
 .subtitulo {
@@ -157,7 +161,6 @@ header {
 .botao_comprar
 {
   background-color: #000;
-  /* height: 30px; */
   border: none;
   padding: 15px;
   width: 80%;
@@ -201,6 +204,10 @@ header {
 
 /* -------------------------------------------------------------LARGE PLUS------------------------------------------------------------- */
 @media (min-width: 992px) {
+  .barra_navegacao{
+    padding: 40px 0px;
+    font-size: 2rem;
+  }
 
   .tela_inicial{
     justify-content: center;
