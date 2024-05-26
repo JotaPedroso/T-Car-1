@@ -124,7 +124,7 @@ header {
     margin-bottom: 10px;
     font-family: "Roboto Slab", serif;
 }
-.hb20 button {
+/* .hb20 button {
   background-color: #000;
   height: 30px;
   border: none;
@@ -138,8 +138,26 @@ header {
 .hb20 button:hover {
   background-color: #000;
   cursor: pointer;
+} */
+
+.botao_comprar
+{
+  background-color: #000;
+  height: 30px;
+  border: none;
+  padding: 4px;
+  width: 80%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
+.botao_comprar:hover
+{
+  background-color: #242424;
+  cursor: pointer;
+}
 
 
 .corolla{
@@ -173,7 +191,7 @@ header {
     margin-bottom: 10px;
     font-family: "Roboto Slab", serif;
 }
-.corolla button {
+/* .corolla button {
   background-color: #000;
   height: 30px;
   border: none;
@@ -187,7 +205,7 @@ header {
 .corolla button:hover {
   background-color: #000;
   cursor: pointer;
-}
+} */
 
 .onix{
     background-color: #f0f0f0;
@@ -220,7 +238,7 @@ header {
     margin-bottom: 10px;
     font-family: "Roboto Slab", serif;
 }
-.onix button {
+/* .onix button {
   background-color: #000;
   height: 30px;
   border: none;
@@ -234,7 +252,7 @@ header {
 .onix button:hover {
   background-color: #000;
   cursor: pointer;
-}
+} */
 
 .evoque{
     background-color: #f0f0f0;
@@ -267,7 +285,7 @@ header {
     margin-bottom: 10px;
     font-family: "Roboto Slab", serif;
 }
-.evoque button {
+/* .evoque button {
   background-color: #000;
   height: 30px;
   border: none;
@@ -281,7 +299,7 @@ header {
 .evoque button:hover {
   background-color: #000;
   cursor: pointer;
-}
+} */
 
 
 
