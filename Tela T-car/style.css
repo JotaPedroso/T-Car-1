@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+   /* border: 1px solid red;*/
 }
 
 body {
@@ -158,6 +158,16 @@ header {
     width: 64%;
 }
 
+.bmw_2022_inicio
+{
+    width: 75%;
+}
+
+.audia7_2021_inicio
+{
+    width: 76%;
+}
+
 .botao_comprar
 {
   background-color: #000;
@@ -226,7 +236,7 @@ header {
     margin: 0 0 0 120px;
   }
   .carros_inicio{
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .card_carros div{
@@ -242,5 +252,57 @@ header {
     padding-bottom: 15px;    
   }
 }
+/* -------------------------------------------------------------MARCAS------------------------------------------------------------- */
 
+.marcas{
+  display: flex;
+  justify-content: space-evenly;
+  /*gap: 10px;*/
+}
 
+.marca_bmw
+{
+  width: 20%;
+  margin-bottom: 5%;
+}
+
+.marca_audi
+{
+  width: 15%;
+  margin-bottom: 5%;
+}
+
+.marca_toyota
+{
+  width: 13%;
+  margin-bottom: 5%;
+}
+
+.marca_hyundai
+{
+  width: 12%;
+  margin-bottom: 5%;
+}
+/* -------------------------------------------------------------MARCAS------------------------------------------------------------- */
+.contato {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.folder_contato {
+  width: 40%;
+  margin-top: -50px;
+}
+
+.texto_contato {
+  font-size: 2.3rem;
+  line-height: 1.5;
+  align-items: center;
+}
+
+.texto_contato strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+}
