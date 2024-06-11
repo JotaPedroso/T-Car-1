@@ -10,19 +10,18 @@
     <header>
         <nav class="barra_navegacao">
             <ul>
-                <li><a href="#qualquer">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="tela_inicial">
+        <section  class="tela_inicial">
             <div class="texto_tela_inicial">
-                <h1> T-CAR </h1>
-                <p class="subtitulo">Loja de veículos automotores</p>                
+                <h1>  T-CAR </h1>
+                <p id="home"  class="subtitulo">Loja de veículos automotores</p>                
             </div>        
-            <img class="imagem_carro_inicio" src="carroveloz.jpg" alt="desenho de um carro em alta velocidade">      
+            <img  class="imagem_carro_inicio" src="carroveloz.jpg" alt="desenho de um carro em alta velocidade">      
         </section>
 
         <section class="faixa_divisoria">
@@ -63,7 +62,74 @@
                     <button class="botao_comprar">Comprar</button>
                 </div>
             </div>
+
+            <div class="card_carros">
+                <div>
+                    <img class="bmw_2022_inicio" src="bmw_2022_inicio.png" alt="imagem de uma bmw prata 4 portas">
+                    <h1>BMW X4 2022</h1>
+                    <span>R$378.900,00</span>
+                    <button class="botao_comprar">Comprar</button>
+                </div>
+            </div>
+
+            <div class="card_carros">
+                <div>
+                    <img class="audia7_2021_inicio" src="audia7_2021_inicio.webp" alt="imagem de um audi branco 4 portas">
+                    <h1>Audi A7 2021</h1>
+                    <span>R$420.900,00</span>
+                    <button class="botao_comprar">Comprar</button>
+                </div>
+            </div>
         </div>
+        
+        <section class="faixa_divisoria">
+            <h1>Marcas</h1>
+        </section>
+        
+        <div class="marcas">
+           <img class="marca_audi" src="marca_audi.png" alt="simbolo audi">
+           <img class="marca_bmw" src="marca_bmw.webp" alt="simbolo bmw">
+           <img class="marca_toyota" src="marca_toyota.png" alt="simbolo toyota">
+           <img class="marca_hyundai" src="marca_hyundai.webp" alt="simbolo hyundai">
+
+        </div>
+
+        <section id="contato" class="faixa_divisoria">
+            <h1>Contato</h1>
+        </section>
+
+        <div class="contato">
+            <img class="folder_contato" src="contato.png" alt="folder de contato">
+            <p class="texto_contato">
+                <strong>Fale Conosco!</strong> 
+                Na T-Car, estamos sempre prontos para atendê-lo da melhor maneira possível.
+                 Seja para tirar dúvidas ou obter informações sobre nossos serviços, nossa equipe está à disposição para ajudar. </p>
+        </div>
+
+        <!-- Rodapé -->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Driving dreams, one car at a time.</h4>
+          <p></p>
+        </div>
+        <div class="col-md-4">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="mailto:contato@t-car.com">contato@t-car.com</a></li>
+            <li><a href="tel:+5512192921234">+55 (12) 19292-1234</a></li>
+            <li><a href="https://www.seusite.com">www.T-car.com.br</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023 Seu Site. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+     
+
     </main> 
 </body>
 </html>
